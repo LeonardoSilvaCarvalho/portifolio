@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Função de download de currículo
     downloadBtn.addEventListener("click", function () {
         const link = document.createElement("a");
-        link.href = "assents/curriculo/Leonardo_Carvalho_Curriculo.pdf";  // Substitua pelo caminho correto do seu arquivo de currículo
-        link.download = "Curriculo_Leonardo_Carvalho.pdf";
+        link.href = "assents/curriculo/Curriculo_novo.docx";  // Substitua pelo caminho correto do seu arquivo de currículo
+        link.download = "Curriculo_leonardo.docx";
         link.click();
     });
 });
